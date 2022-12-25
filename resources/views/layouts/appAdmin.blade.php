@@ -182,13 +182,7 @@
                     
                     </li>
 
-                    <li class="mega-menu mega-menu-lg">
-                        <a class="has-arrow" href="{{ route('events.index') }}" 
-                        aria-expanded="false" style="width: max-content;cursor: pointer;">
-                            <i class="mdi mdi-calendar"></i><span class="nav-text">Events</span>
-                        </a>
                     
-                    </li>
 
 
                     <li class="mega-menu mega-menu-lg">

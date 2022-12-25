@@ -12,7 +12,7 @@
 					<div class="row justify-content-center">
 						<div class="col-xl-8 col-lg-11 col-md-12">
 							<div class="hero__caption hero__caption2 text-center">
-								<h1 data-animation="bounceIn" data-delay="0.2s">دليل المستخدم</h1>
+								<h1 data-animation="bounceIn" data-delay="0.2s"> المركز الاعلامى</h1>
 							</div>
 						</div>
 					</div>

@@ -64,16 +64,20 @@
                                                 <li class="active"><a href="{{ URL :: to ('/')}}">الرئيسية</a></li>
                                                 <li><a href="{{ URL :: to ('/aboutUs')}}">من نحن</a></li>
                                                 
-                                                <li><a href="{{ URL :: to ('/media')}}">دليل المستخدم</a>
-                                                <!--ul class="submenu">
-                                                    <li><a href="blog.html">اسئلة شائعة</a></li>
-                                                    <li><a href="blog_details.html">المركز الأعلامي </a></li>
-                                                   <li><a href="elements.html">مركز المساعدة</a></li>
-                                                   <li><a href="elements.html">آلية عمل المنصة </a></li>
-                                                </ul-->
+                                                
                                                 <li><a href="{{ URL :: to ('/contactUs')}}">تواصل معنا</a></li>
 
-                                                <li><a href="{{ URL :: to ('/helpcenter')}}">مركز المساعدة </a></li>
+                                                <li><a href="#">دليل المستخدم</a>
+                                                <ul class="submenu">
+                                                    
+                                                    <li><a href="{{ URL :: to ('/helpcenter')}}">مركز المساعدة</a></li>
+                                                    <li><a href="{{ URL :: to ('/media')}}">المركز الأعلامي </a></li>
+                                                    <li><a href="{{ URL :: to ('/question')}}">اسئلة شائعة</a></li>
+                                                   <li><a href="#">آلية عمل المنصة </a></li>
+                                                   <li><a href="#">  دليل المستخدم </a></li>
+                                                </ul>
+
+                                                <!--li><a href="{{ URL :: to ('/helpcenter')}}">مركز المساعدة </a></li-->
                                                 <li><a href="{{ URL :: to ('/cards')}}">برج جهات الافتراضي</a>
                                                     <!--ul class="submenu">
                                                             <li><a href="blog.html">الشركات</a></li>

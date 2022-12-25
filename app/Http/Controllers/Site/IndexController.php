@@ -38,6 +38,11 @@ class IndexController extends Controller
         return view('site.ourTeam');
     }
 
+    public function allfaq()
+    {
+        return view('site.allfaq');
+    }
+
     /*===Help Center==============================*/
     
     public function help()
