@@ -58,7 +58,7 @@
                             
                            <h2>سعد عبدالله المحسن</h2> 
                            <img src="media\about\sing.png" class="wow pixFadeUp" data-wow-delay="0.6s" alt="sign" style="visibility: visible; animation-delay: 0.6s; animation-name: i;">
-                           <img src="media\about\1.png" alt="about">
+                           
                           
                           </p>
 												</div>
