@@ -19,8 +19,8 @@
                         <div class="row justify-content-center">
                             <div class="col-xl-8 col-lg-11 col-md-12">
                                 <div class="hero__caption hero__caption2 text-center">
-                                    <h1  data-animation="bounceIn" data-delay="0.2s">من نحن</h1>
-                                    <div class="screen-img">
+                                    <h1  data-animation="bounceIn" data-delay="0.2s"> </h1>
+                                    <div class="screen-img" 
                                         <img src="{{ asset('public/web-assets/img/gallery/screen.png' ) }}" alt="" class=" w-50">
                                     </div>
                                 </div>
@@ -38,13 +38,16 @@
 <div class="whole-wrap">
 									<div class="container box_1170">
 										<div class="section-top-border">
-											<h3 class="mb-30 text-center" >منصة جهات</h3>
+											<h3 class="mb-30 text-right" >منصة جهات</h3>
 											<div class="row">
 												<div class="col-md-3">
+
+                        <p class="description wow pixFadeUp" data-wow-delay="0.4s" style="font-family: cairo; visibility: visible; animation-delay: 0.4s; animation-name: i;"ة الرقمية , وفى إطار رؤية 2030  ساهمنا بدور فعال  فى زيادة الوعي التقنى لدى الجمهور , حيث تُتيح المنصة للجهات فتح مكاتب افتراضية لموظفيها وغرف إجتماعات . كما تُمكن المستفيدين من الوصول للجهات بكل سهولة ويُسر, 
+
                         
 													<img src="{{ asset('public/web-assets/img/1m.png') }}" alt="" class="img-fluid">
 												</div>
-												<div class="col-md-9 mt-sm-20">
+												<div class="col-md-9 mt-sm-20 text-right" >
 													<p>	 نحن نسعى من اجل مواكبة الحداثة والتطور ونشر الثقافة الرقمية , وفى إطار رؤية 2030<br>
  ساهمنا بدور فعال فى زيادة الوعي التقنى لدى الجمهور , حيث تُتيح المنصة <br> 
  للجهات فتح مكاتب افتراضية لموظفيها وغرف إجتماعات . كما تُمكن المستفيدين <br>
@@ -53,7 +56,11 @@
                             <br> <h1> رئيس مجلس الإدارة
                             </h1>
                             
-                           <h2>سعد عبدالله المحسن</h2> </p>
+                           <h2>سعد عبدالله المحسن</h2> 
+                           <img src="media\about\sing.png" class="wow pixFadeUp" data-wow-delay="0.6s" alt="sign" style="visibility: visible; animation-delay: 0.6s; animation-name: i;">
+                           <img src="media\about\1.png" alt="about">
+                          
+                          </p>
 												</div>
 											</div>
 										</div>
