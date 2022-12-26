@@ -9,7 +9,7 @@
   margin-right: 0 !important;
 }
 </style>
-<main>
+    <main>
         <!--? slider Area Start-->
         <section class="slider-area slider-area2">
             <div class="slider-active">
@@ -30,71 +30,74 @@
                 </div>
             </div>
         </section>
-        <section class="about">
-  <div class="container ">
-    <div class="row">
-      <div class="col-lg-7">
-        <div class="about-content">
-          <div class="section-title">
-	           <h1 class="title wow pixFadeUp" data-wow-delay="0.3s" style="font-family: cairo; visibility: visible; animation-delay: 0.3s; animation-name: i;">منصة جهات </h1>
-          </div>
-	        <p class="description wow pixFadeUp" data-wow-delay="0.4s" style="font-family: cairo; visibility: visible; animation-delay: 0.4s; animation-name: i;">نحن نسعى من اجل مواكبة الحداثة والتطور ونشر الثقافة الرقمية , وفى إطار رؤية 2030  ساهمنا بدور فعال  فى زيادة الوعي التقنى لدى الجمهور , حيث تُتيح المنصة للجهات فتح مكاتب افتراضية لموظفيها وغرف إجتماعات . كما تُمكن المستفيدين من الوصول للجهات بكل سهولة ويُسر, 
-           فى مختلف المجالات نحن  نوظف خبراتنا لنؤمن لعملائنا واقعاً ملموسأ يحقق رغابتهم بالنمو والإزدهار المستدام 
-           </p>
-         <div class="singiture wow pixFadeUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: i;">
-	      	<h2 class="sub-title wow pixFadeUp" style="font-family: cairo; visibility: visible; animation-name: i;">رئيس مجلس الإدارة</h2>
-	     	<h3 style="font-family: cairo">سعد عبدالله المحسن</h3>
-        <img src=" {{ asset('public/web-assets/img/sing.png') }}" class="wow pixFadeUp" data-wow-delay="0.6s" alt="sign" style="visibility: visible; animation-delay: 0.6s; animation-name: i;">
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-5">
-          <div class="about-thumb wow pixFadeRight" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: l;">
-          <img src="{{ asset('public/web-assets/img/1m.png') }}"  class="img-fluid" alt="about">
-          </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="team text-center py-5">
-               <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-services mb-30  border border-light rounded-5 text-center" >
+        <!--? Our Services Start -->
+        <section class="our-services">
+            <div class="container">
+                
+
+<div class="whole-wrap">
+									<div class="container box_1170">
+										<div class="section-top-border">
+											<h3 class="mb-30 text-center" >منصة جهات</h3>
+											<div class="row">
+												<div class="col-md-3">
+                        
+													<img src="{{ asset('public/web-assets/img/1m.png') }}" alt="" class="img-fluid">
+												</div>
+												<div class="col-md-9 mt-sm-20">
+													<p>	 نحن نسعى من اجل مواكبة الحداثة والتطور ونشر الثقافة الرقمية , وفى إطار رؤية 2030<br>
+ ساهمنا بدور فعال فى زيادة الوعي التقنى لدى الجمهور , حيث تُتيح المنصة <br> 
+ للجهات فتح مكاتب افتراضية لموظفيها وغرف إجتماعات . كما تُمكن المستفيدين <br>
+ من الوصول للجهات بكل سهولة ويُسر, فى مختلف المجالات نحن نوظف خبراتنا <br>
+لنؤمن لعملائنا واقعاً ملموسأ يحقق رغابتهم بالنمو والإزدهار المستدام <br> 
+                            <br> <h1> رئيس مجلس الإدارة
+                            </h1>
+                            
+                           <h2>سعد عبدالله المحسن</h2> </p>
+												</div>
+											</div>
+										</div>
+
+
+
+
+
+
+
+                <div class="row">
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services mb-30 " style="text-align : center">  
                             <div class="services-ion">
                                 <img src=" {{ asset('public/web-assets/img/icon/18.png' ) }} " alt="" style="height: 100px; width: 100px;">
                             </div>
-                            <br>
                             <div class="services-cap">
-                                <h3 class="font-weight-bold text-center" >هكذا نحقق أهدافنا</h5>
-                                <p>أن تكون المنصة واجهة استرشادية موحده<br> لكافة المعاملات في كافة القطاعات</p>
+                                <h5 style="text-align : center" <a href="#">هكذا نحقق أهدافنا</a></h5>
+                                <p>أن تكون المنصة واجهة استرشادية موحده لكافة المعاملات في كافة القطاعات</p>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-lg-4 col-md-6">
-                        <div class="single-services mb-30  border border-light rounded-5 text-center">
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services mb-30" style="text-align : center">
                             <div class="services-ion">
                             <img src=" {{ asset('public/web-assets/img/icon/19.png ' ) }} " alt="" style="height: 100px; width: 100px;">
                         </div>
-                        <br>
                             <div class="services-cap">
-                                <h3 class="font-weight-bold text-center" >تلك هى رسالتنا</h5>
-                                <p>تقديم المعلومة الدقيقة للجمهور وزيادة <br>الوعي الإرشادي لكافة الجهات بشكل عام</p>
+                                <h5 style="text-align : center" <a href="#">تلك هى رسالتنا</a> </h5>
+                                <p>تقديم المعلومة الدقيقة للجمهور وزيادة الوعي الإرشادي لكافة الجهات بشكل عام</p>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-lg-4 col-md-6 ">
-                        <div class="single-services mb-30 text-center border border-light rounded-5" >
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services mb-30" style="text-align : center">
                             <div class="services-ion">
                                 <img src="{{ asset('public/web-assets/img/icon/20.png' ) }}" alt="" style="height: 100px; width: 100px;">
                             </div>
-                            <br>
                             <div class="services-cap">
-                                <h3 class="font-weight-bold text-center"  >رؤيتنا الإستراتيجية</a></h5>
-                                <p> أن تصبح منصة "جهات" هي القناة الأكثر<br> استخداماً من قبل المستفيدين والجهات</p>
+                                <h5 style="text-align : center" <a href="#">رؤيتنا الإستراتيجية</a></h5>
+                                <p> أن تصبح منصة "جهات" هي القناة الأكثر استخداماً من قبل المستفيدين والجهات</p>
                             </div>
                         </div>
                     </div>
-                    </section>
                     <section class="team text-center py-5">
                         <div class="container">
                           <div class="header my-5">
@@ -144,7 +147,10 @@
             </div>
         </section>
         <!-- Our Services End -->
- 
+        
+
+
+
 
 
 	@endsection
