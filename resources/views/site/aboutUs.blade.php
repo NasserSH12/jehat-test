@@ -30,32 +30,40 @@
                 </div>
             </div>
         </section>
-        <section class="about">
-  <div class="container ">
-    <div class="row">
-      <div class="col-lg-7">
-        <div class="about-content">
-          <div class="section-title">
-	           <h2 class="title wow pixFadeUp" data-wow-delay="0.3s" style="font-family: cairo; visibility: visible; animation-delay: 0.3s; animation-name: i;">منصة جهات </h2>
-          </div>
-	        <p class="description wow pixFadeUp" data-wow-delay="0.4s" style="font-family: cairo; visibility: visible; animation-delay: 0.4s; animation-name: i;">نحن نسعى من اجل مواكبة الحداثة والتطور ونشر الثقافة الرقمية , وفى إطار رؤية 2030  ساهمنا بدور فعال  فى زيادة الوعي التقنى لدى الجمهور , حيث تُتيح المنصة للجهات فتح مكاتب افتراضية لموظفيها وغرف إجتماعات . كما تُمكن المستفيدين من الوصول للجهات بكل سهولة ويُسر, 
-           فى مختلف المجالات نحن  نوظف خبراتنا لنؤمن لعملائنا واقعاً ملموسأ يحقق رغابتهم بالنمو والإزدهار المستدام 
-           </p>
-         <div class="singiture wow pixFadeUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: i;">
-	      	<h3 class="sub-title wow pixFadeUp" style="font-family: cairo; visibility: visible; animation-name: i;">رئيس مجلس الإدارة</h3>
-	     	<h4 style="font-family: cairo">سعد عبدالله المحسن</h4>
-        <img src=" {{ asset('public/web-assets/img/sing.png') }}" class="wow pixFadeUp" data-wow-delay="0.6s" alt="sign" style="visibility: visible; animation-delay: 0.6s; animation-name: i;">
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-5">
-          <div class="about-thumb wow pixFadeRight" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: l;">
-          <img src="{{ asset('public/web-assets/img/1m.png') }}"  class="img-fluid" alt="about">
-          </div>
-      </div>
-    </div>
-  </div>
-</section>
+        <!--? Our Services Start -->
+        <section class="our-services">
+            <div class="container">
+                
+
+<div class="whole-wrap">
+									<div class="container box_1170">
+										<div class="section-top-border">
+											<h3 class="mb-30 text-center" >منصة جهات</h3>
+											<div class="row">
+												<div class="col-md-3">
+                        
+													<img src="{{ asset('public/web-assets/img/1m.png') }}" alt="" class="img-fluid">
+												</div>
+												<div class="col-md-9 mt-sm-20">
+													<p>	 نحن نسعى من اجل مواكبة الحداثة والتطور ونشر الثقافة الرقمية , وفى إطار رؤية 2030<br>
+ ساهمنا بدور فعال فى زيادة الوعي التقنى لدى الجمهور , حيث تُتيح المنصة <br> 
+ للجهات فتح مكاتب افتراضية لموظفيها وغرف إجتماعات . كما تُمكن المستفيدين <br>
+ من الوصول للجهات بكل سهولة ويُسر, فى مختلف المجالات نحن نوظف خبراتنا <br>
+لنؤمن لعملائنا واقعاً ملموسأ يحقق رغابتهم بالنمو والإزدهار المستدام <br> 
+                            <br> <h1> رئيس مجلس الإدارة
+                            </h1>
+                            
+                           <h2>سعد عبدالله المحسن</h2> </p>
+												</div>
+											</div>
+										</div>
+
+
+
+
+
+
+
                 <div class="row">
                     <div class=" col-lg-4 col-md-6 col-sm-6">
                         <div class="single-services mb-30 " style="text-align : center">  
