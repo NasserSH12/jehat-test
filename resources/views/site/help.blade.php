@@ -34,13 +34,13 @@
     <div class="faq-section section-padding40">
         <div class="container">
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-left">
                 @foreach($allCat as $data)
                 <div class="col-lg-10">
-                    <div class="section-tittle">
+                    <div class="section-tittle-left">
                         <h2> {{ $data->name_ar}}</h2>
                     </div>
-                    <div class="collapse-wrapper">
+                    <div class="collapse-wrapper-left">
                         <div class="accordion" id="accordionExample{{ $data->id}}">
 
                             @foreach($data->child as $child)
