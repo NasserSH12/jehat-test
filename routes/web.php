@@ -12,6 +12,35 @@ use App\Http\Controllers\Admin\DepartmentsController;
 use App\Http\Controllers\Admin\EventsController;
 
 use App\Http\Controllers\Site\IndexController;
+
+
+
+// use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ClientController;
+use App\Http\Controllers\FluentController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\SessionController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\PaginationController;
+use App\Http\Controllers\UploadController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\UserController;
+use App\PayementGeteway\Payment;
+use App\Http\Controllers\MailController;
+use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\ExportpdfController;
+use App\Http\Controllers\ImageController;
+use App\Http\Controllers\DropzoneController;
+use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\EditorController;
+use App\Http\Controllers\StudentController;
+use App\Http\Controllers\ContactController;
+
+
+use App\Http\Controllers\TestController;
+use App\Http\Controllers\ZipController;
+use App\Http\Controllers\AuthController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -58,4 +87,13 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('faq', FAQController::class);
     Route::resource('departments', DepartmentsController::class);
     Route::resource('events', EventsController::class);
+    Route::get('/contact-us',[ContactController::class,'contact']);
+Route::post('contact',[ContactController::class,'sendEmail'])->name('contact.us');
+
+Route::get('/getName',[TestController::class,'getFirstLastName']);
+Route::get('/autocomplete',[StudentController::class,'autocomplete'])->name('autocomplete');
+Route::get('/zipfile',[ZipController::class,'zipFile'])->name('zipFile');
+Route::get('/sttable',[StudentController::class,'index'])->name('sttable');
+Route::get('/register',[AuthController::class,'index'])->name('register');
+Route::post('/register-new',[AuthController::class,'register'])->name('register.new');
 });
